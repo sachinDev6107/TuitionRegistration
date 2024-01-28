@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tuition-registration-client-side-solution",
+    "id": "cf7123c8-8f00-43ad-a91f-fc016ba57d36",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TuitionRegistration description"
+      },
+      "longDescription": {
+        "default": "TuitionRegistration description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "tuition-registration Feature",
+        "description": "The feature that activates elements of the tuition-registration solution.",
+        "id": "3de5f75c-db86-40f0-9955-fd23de54cf77",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tuition-registration.sppkg"
+  }
+}
